@@ -34,8 +34,8 @@ Legenda: **CONCLUÍDO** = requisito de planejamento atendido por evidência docu
 | IoT/MQTT opcional | — | PENDENTE | Opcional e fora do escopo desta proposta. |
 | README organizado | README; 16 | CONCLUÍDO | Contexto, perfis, exemplos JSON, dados, arquitetura e índice presentes; histórias oficiais mantidas como bloqueadas. |
 | Kanban da Sprint 1 | 16 | CONCLUÍDO | Atividades, prioridades de trabalho, dependências e evidências registradas. |
-| Aceite do grupo e adequação ao template oficial | README; 12, 16 | PARCIAL | Template consultado e estrutura comparada; faltam identificação acadêmica e aceite do grupo. |
-| Repositório privado e acesso da tutoria | README; 12, 16 | PARCIAL | Endereço e visibilidade privada verificados; acesso da tutoria ainda não confirmado. |
+| Aceite do grupo e adequação ao template oficial | README; 12, 16 | PARCIAL | Template consultado e estrutura comparada; grupo, integrantes e RMs confirmados; faltam tutor/turma, responsabilidades e aceite. |
+| Visibilidade do repositório conforme orientação do briefing | README; 12, 16 | DIVERGÊNCIA | Repositório público por decisão do responsável; briefing orienta privado. Alinhar enquadramento com a tutoria, sem presumir autorização institucional. |
 
 ## Coerência técnica
 
@@ -51,7 +51,7 @@ Legenda: **CONCLUÍDO** = requisito de planejamento atendido por evidência docu
 2. Política organizacional de retenção, base legal, papéis de controlador/operador e decisão de DPO/jurídico.
 3. Fontes de dados aprovadas, snapshots, licenças verificadas e disponibilidade de revisores humanos.
 4. Requisitos não fornecidos de volume, SLO de latência, tolerância a risco, autenticação e infraestrutura.
-5. Identificação acadêmica, responsáveis e aceite do grupo (S1-14–S1-15). O README registra a comparação com o template e a possibilidade de omitir pastas sem uso.
+5. Tutor/turma, distribuição de responsabilidades e aceite do Grupo 2 (S1-14–S1-15); integrantes e RMs já confirmados. A visibilidade pública diverge da orientação de privacidade do briefing (S1-16). O README registra a comparação com o template e a possibilidade de omitir pastas sem uso.
 
 ## Estado compartilhado de execução
 

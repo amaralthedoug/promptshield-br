@@ -2,7 +2,7 @@
 
 ## Status e premissas de planejamento
 
-**Proposta técnica — não implementada.** A Sprint 1 é documental e permanece aberta. Sprints 2–6 são sequenciamento proposto, sem datas comprometidas ou responsáveis nominais. Os responsáveis estão **a definir**. A especificação oficial de User Stories está ausente; o briefing não reproduz IDs, prioridades ou critérios. O confronto e a cobertura P0/P1/P2 oficiais permanecem bloqueados. O catálogo local contém 15 histórias propostas, com oito P0, cinco P1 e duas P2, sem aprovação oficial presumida. **Fase 3 é a entrega acadêmica atual; Sprint 1 é a etapa documental do Challenge, não a Sprint 3 do roadmap.**
+**Proposta técnica — não implementada.** A Sprint 1 é documental e permanece aberta. Sprints 2–6 são sequenciamento proposto, sem datas comprometidas ou responsabilidades nominais atribuídas. Os integrantes do Grupo 2 estão identificados no README; a distribuição das tarefas está **a definir**. A especificação oficial de User Stories está ausente; o briefing não reproduz IDs, prioridades ou critérios. O confronto e a cobertura P0/P1/P2 oficiais permanecem bloqueados. O catálogo local contém 15 histórias propostas, com oito P0, cinco P1 e duas P2, sem aprovação oficial presumida. **Fase 3 é a entrega acadêmica atual; Sprint 1 é a etapa documental do Challenge, não a Sprint 3 do roadmap.**
 
 O [README](../README.md), o [Kanban](16-kanban-sprint1.md) e a [rastreabilidade](13-matriz-rastreabilidade.md) distinguem produção documental, aceite e implementação. As [pendências externas](../entrega/pendencias-externas.md) registram os insumos ainda necessários.
 
@@ -20,9 +20,9 @@ O [README](../README.md), o [Kanban](16-kanban-sprint1.md) e a [rastreabilidade]
 | IDs | Trabalho | Estado atual | Evidência ou condição para avanço |
 |---|---|---|---|
 | S1-01–S1-11 e S1-13 | Proposta, README, Kanban e alinhamento. | Produção documental concluída | Arquivos locais; não implica aceite institucional ou implementação. |
-| S1-14 | Atribuir responsáveis e obter aceite do grupo. | Backlog | Sem nomes/aceite; aceite final depende também de S1-23. |
-| S1-15 | Adequar ao template da coordenação. | Backlog; comparação parcial disponível | Template consultado; faltam identificação acadêmica, turma e decisão do grupo. |
-| S1-16 | Verificar acesso da tutoria ao repositório. | Parcial | Repositório privado criado e endereço verificado; acesso da tutoria ainda não confirmado. |
+| S1-14 | Atribuir responsáveis e obter aceite do grupo. | Backlog | Integrantes identificados; faltam distribuição de tarefas e aceite, que depende também de S1-23. |
+| S1-15 | Adequar ao template da coordenação. | Backlog; comparação parcial disponível | Template consultado; grupo, integrantes e RMs confirmados; faltam tutor/turma e decisões acadêmicas aplicáveis. |
+| S1-16 | Alinhar visibilidade do repositório com a orientação acadêmica. | Backlog | Repositório público por decisão do responsável; briefing orienta privado. Acesso de leitura já disponível. |
 | S1-19 | Rever admissibilidade das fontes e gates institucionais. | Backlog | Metadados conflitantes de licença do dataset candidato; aprovações não presumidas. |
 | S1-21 | Obter histórias oficiais. | Bloqueado | Especificação oficial necessária. |
 | S1-22 | Inventariar IDs, prioridades, critérios e rastreabilidade. | Bloqueado | Depende de S1-21. |
@@ -51,7 +51,7 @@ Não há tarefa registrada como em andamento ou em revisão. A Sprint permanece 
 | Governança | Privacidade, licenças, retenção, auditoria e versões. | A definir |
 | Organização acadêmica | Identificação do grupo e adequação ao template. | A definir |
 
-A distribuição nominal exige informação do grupo. Não atribuir nomes por inferência da autoria Git.
+Os nomes e RMs do Grupo 2 estão confirmados no README. A distribuição de responsabilidades exige decisão do grupo; não atribuir papéis por inferência da autoria Git.
 
 ## Dependências futuras de adoção
 

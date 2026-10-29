@@ -10,7 +10,7 @@ A proposta acadêmica responde ao Challenge FIAP em parceria com a Intelliway, c
 
 A Sprint 1 concentra entendimento do problema, ameaças, dados, arquitetura e seleção das User Stories oficiais. A especificação oficial está ausente: sua validação e cobertura P0/P1/P2 permanecem **bloqueadas**. Há um catálogo local de 15 histórias propostas, com oito P0, cinco P1 e duas P2, critérios e dependências. Essas propostas não substituem requisitos oficiais.
 
-**Fase 3** identifica a entrega acadêmica atual; ela apresenta o planejamento da **Sprint 1 do Challenge**, não uma Sprint 3 implementada. O [resumo em PDF](entrega/PromptShieldBR_Fase3_GrupoAConfirmar.pdf) e sua [fonte Markdown](entrega/PromptShieldBR_Fase3_GrupoAConfirmar.md) sintetizam a documentação; a identificação do grupo ainda depende de confirmação.
+**Fase 3** identifica a entrega acadêmica atual; ela apresenta o planejamento da **Sprint 1 do Challenge**, não uma Sprint 3 implementada. O [resumo em PDF](entrega/PromptShieldBR_Fase3_Grupo2.pdf) e sua [fonte Markdown](entrega/PromptShieldBR_Fase3_Grupo2.md) sintetizam a documentação; a identificação do Grupo 2 e dos integrantes foi confirmada.
 
 ## Problema de negócio e objetivos da plataforma
 
@@ -41,9 +41,9 @@ São entregáveis documentais: modelo de ameaças, planos de dataset e NLP, arqu
 | Frente | Estado atual | Evidência ou pendência |
 |---|---|---|
 | Proposta técnica, README e Kanban | Produção documental concluída | Documentos 01–16; aceite do grupo pendente. |
-| Responsáveis e aceite do grupo | Backlog | S1-14; nomes e aceite ainda não registrados. |
-| Adequação ao template da coordenação | Parcial | S1-15; estrutura comparada ao template, identificação acadêmica ainda a confirmar. |
-| Repositório GitHub | Criado e endereço verificado | [amaralthedoug/promptshield-br](https://github.com/amaralthedoug/promptshield-br), privado; acesso da tutoria ainda não verificado. Nenhuma configuração foi alterada nesta etapa. |
+| Responsabilidades e aceite do grupo | Backlog | S1-14; integrantes identificados, distribuição de tarefas e aceite ainda não registrados. |
+| Adequação ao template da coordenação | Parcial | S1-15; grupo, integrantes e RMs confirmados; tutor/turma e decisão acadêmica aplicável ainda pendentes. |
+| Repositório GitHub | Criado e endereço verificado | [amaralthedoug/promptshield-br](https://github.com/amaralthedoug/promptshield-br), público por decisão do responsável; acesso de leitura disponível sem convite. |
 | Admissibilidade das fontes e gates institucionais | Backlog | S1-19; divergência de licença do dataset candidato exige esclarecimento. |
 | Catálogo de histórias propostas pelo grupo | Produção documental concluída | US-001–US-015: oito P0, cinco P1 e duas P2; critérios futuros, sem implementação ou validação oficial. |
 | Validação de histórias oficiais, prioridades e cobertura do MVP | Bloqueado | S1-21–S1-23; especificação oficial ausente. |
@@ -187,7 +187,16 @@ A documentação está em PT-BR, preservando termos técnicos e identificadores.
 
 ### Identificação acadêmica e adequação ao template
 
-Nome do grupo, integrantes, tutor da turma e opção de participação na competição: **a confirmar pelo grupo**, sem nomes ou decisões presumidos. O [template Enterprise Challenge](https://github.com/CaiqueFiap-2026/TEMPLATE-TIAO-2026/blob/main/1TIAO/ENTERPRISE%20CHALLENGE/README.md) foi consultado em 29/10/2026. A estrutura documental é compatível com a dispensa de pastas sem uso; o preenchimento acadêmico e a confirmação do enquadramento da turma permanecem pendentes. Não há execução de código aplicável nesta Sprint nem histórico de releases a inventar.
+**Grupo 2 — integrantes e RMs confirmados:**
+
+| Integrante | RM |
+|---|---|
+| Cláudio Sartori | 567194 |
+| Douglas Rafael do Amaral | 566740 |
+| Pedro Alves da Silva | 567029 |
+| William A. C. Vasconcelos | 567096 |
+
+Tutor/turma, distribuição de responsabilidades e opção de participação na competição: **a confirmar pelo grupo**. A visibilidade pública foi adotada por decisão explícita do responsável; o briefing fornecido orienta repositório privado, portanto essa diferença permanece registrada para alinhamento acadêmico. O [template Enterprise Challenge](https://github.com/CaiqueFiap-2026/TEMPLATE-TIAO-2026/blob/main/1TIAO/ENTERPRISE%20CHALLENGE/README.md) foi consultado em 29/10/2026. A estrutura documental é compatível com a dispensa de pastas sem uso; o preenchimento acadêmico e a confirmação do enquadramento da turma permanecem pendentes. Não há execução de código aplicável nesta Sprint nem histórico de releases a inventar.
 
 ## Índice da documentação
 
@@ -210,8 +219,8 @@ Nome do grupo, integrantes, tutor da turma e opção de participação na compet
 | [14 — Políticas operacionais](docs/14-politicas-operacionais.md) |
 | [15 — Registro de decisões](docs/15-registro-de-decisoes.md) |
 | [16 — Kanban da Sprint 1](docs/16-kanban-sprint1.md) |
-| [Resumo Fase 3 — PDF](entrega/PromptShieldBR_Fase3_GrupoAConfirmar.pdf) |
-| [Resumo Fase 3 — Markdown editável](entrega/PromptShieldBR_Fase3_GrupoAConfirmar.md) |
+| [Resumo Fase 3 — PDF](entrega/PromptShieldBR_Fase3_Grupo2.pdf) |
+| [Resumo Fase 3 — Markdown editável](entrega/PromptShieldBR_Fase3_Grupo2.md) |
 | [Pendências externas](entrega/pendencias-externas.md) |
 
 ## Roadmap proposto
@@ -230,10 +239,10 @@ Sprints 2–6 são propostas sem datas comprometidas ou responsáveis nominais. 
 ## Limitações e dependências conhecidas
 
 - Especificação oficial ausente: há seleção P0/P1/P2 local proposta, mas não evidência de cobertura de P0 oficiais ou aprovação de P1/P2 pela Intelliway.
-- Identificação acadêmica, responsáveis e aceite do grupo precisam ser registrados.
+- Grupo, integrantes e RMs estão confirmados; tutor/turma, responsabilidades e aceite ainda precisam ser registrados.
 - Fontes, licenças, revisores, hardware, thresholds e desempenho exigem validação futura.
 - Stack, IdP, infraestrutura, retenção e papéis de privacidade continuam propostas ou dependências institucionais.
-- Endereço e visibilidade privada foram verificados por leitura nesta etapa; acesso da tutoria não foi verificado ou alterado.
+- O repositório está público por decisão do responsável, em divergência da orientação de privacidade do briefing; o enquadramento acadêmico deve ser alinhado com a tutoria.
 
 
 **Prontidão documental: condicionada às pendências externas registradas.** Não se declara documentação pronta para submissão enquanto requisitos oficiais não puderem ser cobertos.

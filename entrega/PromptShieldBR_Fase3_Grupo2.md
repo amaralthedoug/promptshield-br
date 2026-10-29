@@ -4,9 +4,17 @@ Challenge Intelliway | Detecção de Prompt Injection em PT-BR
 
 **Etapa do projeto:** Sprint 1 - Proposta técnica documentada
 
-**Grupo:** A confirmar para esta entrega
+**Grupo:** Grupo 2
 
-**Integrantes e respectivos RMs:** A confirmar para esta entrega
+**Integrantes e respectivos RMs:**
+
+- Cláudio Sartori - RM 567194
+
+- Douglas Rafael do Amaral - RM 566740
+
+- Pedro Alves da Silva - RM 567029
+
+- William A. C. Vasconcelos - RM 567096
 
 ## Resumo da entrega
 
@@ -31,8 +39,8 @@ A entrega da Fase 3 apresenta o planejamento da Sprint 1 do Challenge Intelliway
 
 [https://github.com/amaralthedoug/promptshield-br](https://github.com/amaralthedoug/promptshield-br)
 
-Repositório privado, com endereço e visibilidade verificados. O acesso depende de permissão.
+Repositório público, com endereço e visibilidade verificados.
 
 ## Observação acadêmica
 
-A Fase 3 corresponde à entrega atual do curso e apresenta a Sprint 1 do Challenge Intelliway como proposta técnica documentada, sem implementação funcional ou métricas experimentais. O catálogo contém **User Stories propostas pelo grupo — sujeitas à validação perante a especificação oficial da Intelliway**; não comprova cobertura integral das P0 oficiais. Grupo, integrantes e RMs aguardam confirmação específica para esta entrega.
+A Fase 3 corresponde à entrega atual do curso e apresenta a Sprint 1 do Challenge Intelliway como proposta técnica documentada, sem implementação funcional ou métricas experimentais. O catálogo contém **User Stories propostas pelo grupo — sujeitas à validação perante a especificação oficial da Intelliway**; não comprova cobertura integral das P0 oficiais.

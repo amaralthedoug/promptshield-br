@@ -10,9 +10,9 @@ A Fase 3 acadêmica apresenta uma proposta técnica documentada, sem implementa�
 |---|---|---|---|---|
 | E01 | Receber a especificação oficial de User Stories. | Impede validar prioridades, critérios e cobertura oficial do MVP. | Grupo e canal oficial da turma. | Fonte identificada e confronto entre histórias oficiais e US-001–US-015, com lacunas e decisões registradas. |
 | E02 | Esclarecer a licença/proveniência de deepset/prompt-injections. | Fonte ainda não aprovada para coleta, tradução, redistribuição ou treino. | Mantenedor, curadoria e grupo; jurídico quando aplicável. | Snapshot e termos esclarecidos: a card declara apache-2.0 no nível superior e cc-by-4.0 em dataset_info. Alternativa exige decisão fundamentada e termos verificados. |
-| E03 | Confirmar grupo, nomes, RMs e distribuição de responsabilidades. | Identificação do resumo acadêmico e alocação nominal incompletas. | Integrantes do grupo. | Preenchimento confirmado no resumo, README, roadmap e Kanban, sem reutilizar automaticamente a equipe da entrega anterior. |
+| E03 | Distribuir responsabilidades e registrar aceite do planejamento. | Integrantes e RMs do Grupo 2 confirmados; alocação por tarefa ainda pendente. | Integrantes do grupo. | Decisão registrada no roadmap e no Kanban, sem atribuir papéis por inferência. |
 | E04 | Confirmar tutor/turma e decisões acadêmicas aplicáveis. | Adequação final ao template ainda parcial. | Grupo e tutoria. | Identificação e decisões registradas; estrutura pertinente à Sprint documental. |
-| E05 | Confirmar acesso da tutoria ao repositório privado. | Endereço disponível não comprova acesso de quem avaliará. | Titular do repositório e grupo. | Evidência de acesso do perfil correto; o repositório é https://github.com/amaralthedoug/promptshield-br. |
+| E05 | Alinhar visibilidade pública com a orientação acadêmica. | O briefing orienta repositório privado; o responsável solicitou explicitamente torná-lo público. | Grupo e tutoria. | Enquadramento acadêmico registrado. O endereço https://github.com/amaralthedoug/promptshield-br está público e permite leitura sem convite. |
 
 ## Dependências para as próximas Sprints
 

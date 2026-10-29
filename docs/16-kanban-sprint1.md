@@ -12,9 +12,9 @@ Concluído significa produção do artefato documental indicado. Não implica ac
 
 | ID | Descrição | Prioridade | Evidência | Responsável | Status | Dependência |
 |---|---|---|---|---|---|---|
-| S1-14 | Atribuir responsáveis e obter revisão/aceite do grupo | Alta | Sem responsáveis nominais ou aceite registrado | A definir | Backlog | Minutas disponíveis; aceite final depende também de S1-23 |
-| S1-15 | Verificar e completar adequação ao template oficial | Alta | [Identificação acadêmica e template](../README.md#identificação-acadêmica-e-adequação-ao-template); preenchimento ainda pendente | A definir | Backlog | Grupo confirma turma, identificação e decisões acadêmicas |
-| S1-16 | Verificar acesso da tutoria ao repositório privado | Alta | Endereço e visibilidade privada verificados; acesso da tutoria ainda não confirmado | A definir | Backlog | Confirmação do perfil e do acesso pela equipe |
+| S1-14 | Atribuir responsáveis e obter revisão/aceite do grupo | Alta | Integrantes identificados; responsabilidades por tarefa e aceite ainda não registrados | A definir | Backlog | Minutas disponíveis; aceite final depende também de S1-23 |
+| S1-15 | Verificar e completar adequação ao template oficial | Alta | [Identificação acadêmica e template](../README.md#identificação-acadêmica-e-adequação-ao-template); integrantes/RMs confirmados; tutor/turma e decisões acadêmicas pendentes | A definir | Backlog | Grupo confirma tutor/turma e decisões acadêmicas |
+| S1-16 | Alinhar visibilidade do repositório com a orientação acadêmica | Alta | Repositório público por decisão do responsável; briefing orienta privado | A definir | Backlog | Alinhamento do enquadramento com a tutoria |
 | S1-19 | Rever admissibilidade das fontes e gates institucionais | Média | [Dataset](04-planejamento-dataset.md): metadados de licença divergentes; [decisões](15-registro-de-decisoes.md) pendentes | A definir | Backlog | Curadoria, esclarecimento da origem/licença e decisões institucionais quando aplicáveis |
 
 ## Em andamento
@@ -42,7 +42,7 @@ Nenhuma tarefa registrada neste quadro. S1-14 prevê revisão do grupo; não há
 | S1-11 | Criar Kanban baseado em evidências | Alta | [Este Kanban](16-kanban-sprint1.md) | A definir | Concluído | S1-01–S1-10 |
 | S1-13 | Alinhar README, Kanban, roadmap e rastreabilidade | Alta | [README](../README.md), [roadmap](12-roadmap.md), [matriz](13-matriz-rastreabilidade.md) | A definir | Concluído | S1-10–S1-11 |
 | S1-24 | Elaborar catálogo local de histórias propostas e rastreabilidade | Alta | [Catálogo US-001–US-015](03-user-stories.md), [matriz](13-matriz-rastreabilidade.md), [roadmap](12-roadmap.md) | A definir | Concluído | Briefing e documentação existente; validação oficial segue S1-21–S1-23 |
-| S1-25 | Preparar resumo acadêmico da Fase 3 em Markdown e PDF A4 | Alta | [Fonte editável](../entrega/PromptShieldBR_Fase3_GrupoAConfirmar.md), [PDF](../entrega/PromptShieldBR_Fase3_GrupoAConfirmar.pdf); uma página inspecionada visualmente | A definir | Concluído | S1-24 e documentos existentes; identificação acadêmica continua S1-14–S1-15 |
+| S1-25 | Preparar resumo acadêmico da Fase 3 em Markdown e PDF A4 | Alta | [Fonte editável](../entrega/PromptShieldBR_Fase3_Grupo2.md), [PDF](../entrega/PromptShieldBR_Fase3_Grupo2.pdf); uma página inspecionada visualmente | A definir | Concluído | S1-24 e documentos existentes; grupo, integrantes e RMs confirmados; distribuição de tarefas e aceite continuam S1-14–S1-15 |
 
 ## Bloqueado
 
