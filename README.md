@@ -8,7 +8,9 @@ O PromptShield BR propõe um serviço independente, consumido por API, para dete
 
 A proposta acadêmica responde ao Challenge FIAP em parceria com a Intelliway, conforme o [briefing fornecido](BRIEFING.md). O grupo não tem acesso ao código, aos dados de clientes ou à infraestrutura do EvaGPT. Integração com esses sistemas está fora do escopo.
 
-A Sprint 1 concentra entendimento do problema, ameaças, dados, arquitetura e seleção das User Stories oficiais. A especificação dessas histórias está ausente: seleção e rastreabilidade P0/P1/P2 permanecem **bloqueadas**. Capacidades técnicas propostas não substituem requisitos oficiais.
+A Sprint 1 concentra entendimento do problema, ameaças, dados, arquitetura e seleção das User Stories oficiais. A especificação oficial está ausente: sua validação e cobertura P0/P1/P2 permanecem **bloqueadas**. Há um catálogo local de 15 histórias propostas, com oito P0, cinco P1 e duas P2, critérios e dependências. Essas propostas não substituem requisitos oficiais.
+
+**Fase 3** identifica a entrega acadêmica atual; ela apresenta o planejamento da **Sprint 1 do Challenge**, não uma Sprint 3 implementada. O [resumo em PDF](entrega/PromptShieldBR_Fase3_GrupoAConfirmar.pdf) e sua [fonte Markdown](entrega/PromptShieldBR_Fase3_GrupoAConfirmar.md) sintetizam a documentação; a identificação do grupo ainda depende de confirmação.
 
 ## Problema de negócio e objetivos da plataforma
 
@@ -38,16 +40,16 @@ São entregáveis documentais: modelo de ameaças, planos de dataset e NLP, arqu
 
 | Frente | Estado atual | Evidência ou pendência |
 |---|---|---|
-| Proposta técnica, README, Kanban e plano Projects | Produção documental concluída | Documentos 01–17; aceite do grupo pendente. |
+| Proposta técnica, README e Kanban | Produção documental concluída | Documentos 01–16; aceite do grupo pendente. |
 | Responsáveis e aceite do grupo | Backlog | S1-14; nomes e aceite ainda não registrados. |
-| Adequação ao template da coordenação | Parcial | S1-15; comparação registrada na auditoria, identificação acadêmica ainda a confirmar. |
-| Repositório privado e acesso da tutoria | Não verificado nesta auditoria | S1-16; nenhuma configuração remota foi alterada. |
+| Adequação ao template da coordenação | Parcial | S1-15; estrutura comparada ao template, identificação acadêmica ainda a confirmar. |
+| Repositório GitHub | Criado e endereço verificado | [amaralthedoug/promptshield-br](https://github.com/amaralthedoug/promptshield-br), privado; acesso da tutoria ainda não verificado. Nenhuma configuração foi alterada nesta etapa. |
 | Admissibilidade das fontes e gates institucionais | Backlog | S1-19; divergência de licença do dataset candidato exige esclarecimento. |
-| Criação opcional de GitHub Projects | Backlog; opcional | S1-20; existe somente plano local. |
-| Histórias oficiais, prioridades e seleção do MVP | Bloqueado | S1-21–S1-23; especificação ausente. |
+| Catálogo de histórias propostas pelo grupo | Produção documental concluída | US-001–US-015: oito P0, cinco P1 e duas P2; critérios futuros, sem implementação ou validação oficial. |
+| Validação de histórias oficiais, prioridades e cobertura do MVP | Bloqueado | S1-21–S1-23; especificação oficial ausente. |
 | Implementação, coleta de dados e experimentos | Trabalho futuro | Sprints 2–6 e respectivas dependências. |
 
-As tarefas S1-17–S1-18 permanecem no planejamento histórico e estão fora do escopo desta auditoria. O [Kanban](docs/16-kanban-sprint1.md) distingue produção documental de aceite e implementação. O [relatório](entrega/relatorio-auditoria-final.md) apresenta a contagem de conformidade; as [pendências externas](entrega/pendencias-externas.md) explicitam os insumos faltantes.
+O [Kanban](docs/16-kanban-sprint1.md) distingue produção documental, aceite e implementação. As [pendências externas](entrega/pendencias-externas.md) registram os insumos necessários para completar a entrega.
 
 ## Arquitetura proposta
 
@@ -177,10 +179,8 @@ São características pretendidas, não vantagens comerciais ou resultados compr
 .
 ├── README.md                       # Entrada para avaliação
 ├── BRIEFING.md                     # Briefing fornecido, preservado
-├── docs/                           # Proposta e planejamento (01–17)
-├── entrega/                        # Relatório de auditoria e pendências
-├── .Codex/napkin.md                 # Orientações locais do agente
-└── .vscode/settings.json            # Configuração de editor
+├── docs/                           # Proposta e planejamento (01–16)
+└── entrega/                        # Resumo Fase 3 em PDF/Markdown e pendências
 ```
 
 A documentação está em PT-BR, preservando termos técnicos e identificadores. Não existe código de aplicação. O template oficial permite usar somente as pastas pertinentes; não se criam `src/` ou `data/` vazios para aparentar implementação.
@@ -210,10 +210,9 @@ Nome do grupo, integrantes, tutor da turma e opção de participação na compet
 | [14 — Políticas operacionais](docs/14-politicas-operacionais.md) |
 | [15 — Registro de decisões](docs/15-registro-de-decisoes.md) |
 | [16 — Kanban da Sprint 1](docs/16-kanban-sprint1.md) |
-| [17 — Plano GitHub Projects](docs/17-plano-github-projects.md) |
-| [Relatório de auditoria](entrega/relatorio-auditoria-final.md) |
+| [Resumo Fase 3 — PDF](entrega/PromptShieldBR_Fase3_GrupoAConfirmar.pdf) |
+| [Resumo Fase 3 — Markdown editável](entrega/PromptShieldBR_Fase3_GrupoAConfirmar.md) |
 | [Pendências externas](entrega/pendencias-externas.md) |
-| [Orientações locais do agente](.Codex/napkin.md) — não são fonte de requisitos acadêmicos. |
 
 ## Roadmap proposto
 
@@ -230,18 +229,18 @@ Sprints 2–6 são propostas sem datas comprometidas ou responsáveis nominais. 
 
 ## Limitações e dependências conhecidas
 
-- Especificação oficial ausente: não há evidência de cobertura de P0 nem seleção de P1/P2.
+- Especificação oficial ausente: há seleção P0/P1/P2 local proposta, mas não evidência de cobertura de P0 oficiais ou aprovação de P1/P2 pela Intelliway.
 - Identificação acadêmica, responsáveis e aceite do grupo precisam ser registrados.
 - Fontes, licenças, revisores, hardware, thresholds e desempenho exigem validação futura.
 - Stack, IdP, infraestrutura, retenção e papéis de privacidade continuam propostas ou dependências institucionais.
-- Privacidade e acesso da tutoria não foram verificados ou alterados nesta auditoria.
-- Nenhuma issue, Project ou configuração remota foi criada.
+- Endereço e visibilidade privada foram verificados por leitura nesta etapa; acesso da tutoria não foi verificado ou alterado.
 
-**Prontidão documental: condicionada às pendências do relatório de auditoria.** Não se declara documentação pronta para submissão enquanto requisitos oficiais não puderem ser cobertos.
+
+**Prontidão documental: condicionada às pendências externas registradas.** Não se declara documentação pronta para submissão enquanto requisitos oficiais não puderem ser cobertos.
 
 ## Referências técnicas
 
-Referências consultadas em 29/10/2026. Disponibilidade de uma página não aprova licença, escolha de tecnologia ou eficácia. O relatório registra as verificações e limitações.
+Referências consultadas em 29/10/2026. Disponibilidade de uma página não aprova licença, escolha de tecnologia ou eficácia. As limitações e decisões pendentes estão registradas nos documentos correspondentes.
 
 - [OWASP LLM01:2025 — Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)
 - [Vaswani et al. — Attention Is All You Need](https://arxiv.org/abs/1706.03762)

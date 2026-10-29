@@ -1,0 +1,7 @@
+.Codex/
+.vscode/
+docs/17-plano-github-projects.md
+entrega/relatorio-auditoria-final.md
+.env
+.env.*
+!.env.example
